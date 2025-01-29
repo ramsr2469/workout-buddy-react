@@ -24,7 +24,7 @@ function Home() {
     if (user) {
       fetchWorkOuts();
     }
-  }, [dispatch]);
+  }, [dispatch, user]);
   return (
     <div className="home">
       <div className="workouts">
